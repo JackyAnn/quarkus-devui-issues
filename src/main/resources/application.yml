@@ -1,0 +1,10 @@
+quarkus:
+  application:
+    name: ${name}
+    version: ${version}
+    ui-header: ${name} powered by quarkus ${quarkusPlatformVersion}
+  http:
+    cors:
+      ~: true
+      access-control-max-age: PT1H
+    enable-compression: true
