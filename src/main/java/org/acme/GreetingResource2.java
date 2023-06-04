@@ -14,8 +14,8 @@ public class GreetingResource2 {
      * Does not work properly, startup error reported
      */
     @GET
-    @RolesAllowed("user")
-    @PermissionsAllowed("see:read")
+    //@RolesAllowed("user")
+    //@PermissionsAllowed("see:read")
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
         return "Hello RESTEasy";
