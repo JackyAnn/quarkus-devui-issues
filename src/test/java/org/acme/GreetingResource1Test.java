@@ -23,7 +23,18 @@ public class GreetingResource1Test {
 
     @Test
     public void testHelloEndpoint() {
+        /**
+         * print
+         * {}
+         */
         System.out.println("---"+jsonb.toJson(applicationRecord));
+
+        /**
+         * print
+         * {
+         *     "name": "SingletonRecord"
+         * }
+         */
         System.out.println("---"+jsonb.toJson(singletonRecord));
     }
 

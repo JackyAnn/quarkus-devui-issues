@@ -23,6 +23,11 @@ public class JsonConfigCustomizer implements JsonbConfigCustomizer {
     jsonbConfig.withFormatting(true);
   }
 
+  /**
+   *
+   * Can not be serialised
+   * @return
+   */
   @Produces
   @ApplicationScoped
   public ApplicationRecord create1(){
